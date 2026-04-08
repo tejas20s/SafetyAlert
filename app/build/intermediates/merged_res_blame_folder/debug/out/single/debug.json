@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.safetyalert.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.png.flat",
+        "source": "com.safetyalert.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.safetyalert.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.safetyalert.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.safetyalert.app-merged_res-31:/layout_activity_map.xml.flat",
+        "source": "com.safetyalert.app-main-33:/layout/activity_map.xml"
+    },
+    {
+        "merged": "com.safetyalert.app-merged_res-31:/layout_activity_contacts.xml.flat",
+        "source": "com.safetyalert.app-main-33:/layout/activity_contacts.xml"
+    },
+    {
+        "merged": "com.safetyalert.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.png.flat",
+        "source": "com.safetyalert.app-main-33:/mipmap-anydpi-v26/ic_launcher.png"
+    },
+    {
+        "merged": "com.safetyalert.app-merged_res-31:/layout_activity_alert_status.xml.flat",
+        "source": "com.safetyalert.app-main-33:/layout/activity_alert_status.xml"
+    }
+]

@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.safetyalert.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:4:5-79
+12-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:5:5-81
+13-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.SEND_SMS" />
+14-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:6:5-67
+14-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:7:5-77
+15-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:7:22-74
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:8:5-67
+16-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:8:22-64
+17
+18    <permission
+18-->[androidx.core:core:1.9.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\e255476a4c42dff7e48fd3b51ad4a402\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.safetyalert.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.9.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\e255476a4c42dff7e48fd3b51ad4a402\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.9.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\e255476a4c42dff7e48fd3b51ad4a402\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.safetyalert.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.9.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\e255476a4c42dff7e48fd3b51ad4a402\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.9.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\e255476a4c42dff7e48fd3b51ad4a402\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:10:5-63:19
+25        android:allowBackup="true"
+25-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:11:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.9.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\e255476a4c42dff7e48fd3b51ad4a402\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:13:9-43
+30        android:label="SafetyAlert"
+30-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:12:9-36
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:14:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:15:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.SafetyAlert" >
+34-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:16:9-49
+35
+36        <!-- Splash Screen (Launcher Activity) -->
+37        <activity
+37-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:19:9-27:20
+38            android:name="com.safetyalert.app.activities.SplashActivity"
+38-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:20:13-54
+39            android:exported="true"
+39-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:21:13-36
+40            android:theme="@style/Theme.SafetyAlert" >
+40-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:22:13-53
+41            <intent-filter>
+41-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:23:13-26:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:24:17-69
+42-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:24:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:25:17-77
+44-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:25:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <!-- Register Activity -->
+49        <activity
+49-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:30:9-32:40
+50            android:name="com.safetyalert.app.activities.RegisterActivity"
+50-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:31:13-56
+51            android:exported="false" />
+51-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:32:13-37
+52
+53        <!-- Login Activity -->
+54        <activity
+54-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:35:9-37:40
+55            android:name="com.safetyalert.app.activities.LoginActivity"
+55-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:36:13-53
+56            android:exported="false" />
+56-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:37:13-37
+57
+58        <!-- Home Screen / Main Activity -->
+59        <activity
+59-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:40:9-42:40
+60            android:name="com.safetyalert.app.MainActivity"
+60-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:41:13-41
+61            android:exported="false" />
+61-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:42:13-37
+62
+63        <!-- Other Screens -->
+64        <activity
+64-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:45:9-47:40
+65            android:name="com.safetyalert.app.activities.ContactsActivity"
+65-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:46:13-56
+66            android:exported="false" />
+66-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:47:13-37
+67        <activity
+67-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:49:9-51:40
+68            android:name="com.safetyalert.app.activities.MapActivity"
+68-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:50:13-51
+69            android:exported="false" />
+69-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:51:13-37
+70        <activity
+70-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:53:9-55:40
+71            android:name="com.safetyalert.app.activities.AlertStatusActivity"
+71-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:54:13-59
+72            android:exported="false" />
+72-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:55:13-37
+73
+74        <!-- Foreground Service -->
+75        <service
+75-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:58:9-61:40
+76            android:name="com.safetyalert.app.services.LocationService"
+76-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:59:13-53
+77            android:exported="false"
+77-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:61:13-37
+78            android:foregroundServiceType="location" />
+78-->C:\Users\Tuskii\AndroidStudioProjects\NEWWWW\app\src\main\AndroidManifest.xml:60:13-53
+79
+80        <activity
+80-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\7fe2f5da290bf0019e3f3259979e994b\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+81            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+81-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\7fe2f5da290bf0019e3f3259979e994b\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+82            android:exported="false"
+82-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\7fe2f5da290bf0019e3f3259979e994b\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+83-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\7fe2f5da290bf0019e3f3259979e994b\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+84
+85        <meta-data
+85-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\80e5ab76016c0261559a78cb2ee6fd49\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+86            android:name="com.google.android.gms.version"
+86-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\80e5ab76016c0261559a78cb2ee6fd49\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+87            android:value="@integer/google_play_services_version" />
+87-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\80e5ab76016c0261559a78cb2ee6fd49\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+88
+89        <provider
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\e133da6b3bcdda27766e90d24340514e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+90            android:name="androidx.startup.InitializationProvider"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\e133da6b3bcdda27766e90d24340514e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+91            android:authorities="com.safetyalert.app.androidx-startup"
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\e133da6b3bcdda27766e90d24340514e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+92            android:exported="false" >
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\e133da6b3bcdda27766e90d24340514e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+93            <meta-data
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\e133da6b3bcdda27766e90d24340514e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\e133da6b3bcdda27766e90d24340514e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+95                android:value="androidx.startup" />
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\e133da6b3bcdda27766e90d24340514e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\b4f56f26a91768ce12abc31ae8ff67a6\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\b4f56f26a91768ce12abc31ae8ff67a6\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+98                android:value="androidx.startup" />
+98-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Tuskii\.gradle\caches\8.10.2\transforms\b4f56f26a91768ce12abc31ae8ff67a6\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+99        </provider>
+100    </application>
+101
+102</manifest>

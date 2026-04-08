@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="26dp">
+
+        <!-- TOP TITLE -->
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAFETYALERT"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000" />
+
+        <!-- ICON -->
+        <ImageView
+            android:id="@+id/registerIcon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/polygon_2"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- SUBTITLE Register -->
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="26sp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginBottom="18dp"/>
+
+        <!-- INPUT FIELDS MATCH UI -->
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Name"
+            android:background="@drawable/rounded_input"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:textColorHint="#777777"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/rounded_input"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:textColorHint="#777777"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:background="@drawable/rounded_input"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:textColorHint="#777777"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_input"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:textColorHint="#777777"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Re-enter Password"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_input"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:textColorHint="#777777"
+            android:layout_marginBottom="20dp" />
+
+        <!-- REGISTER BUTTON MATCHES UI -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:background="@drawable/rounded_button_light"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Already Have Account? -->
+        <TextView
+            android:id="@+id/tvAlready"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Have Account ?"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <!-- LOGIN TEXT -->
+        <TextView
+            android:id="@+id/tvGoToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#0066FF"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+</ScrollView>

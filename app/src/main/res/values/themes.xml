@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.SafetyAlert" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Custom Colors -->
+        <item name="colorPrimary">#00AEEF</item>  <!-- Blue similar to screenshot -->
+        <item name="colorPrimaryVariant">#008FCC</item>
+        <item name="colorSecondary">#0077CC</item>
+    </style>
+
+</resources>
